@@ -111,10 +111,9 @@ footer {
 .navbar {
   background-color: #302f2f;
   margin: 0;
-  max-height: 70px;
 }
 
-/* .collapse:last-child {
-  display: flex;
-  justify-content: space-between;
-} */
+.navbar a,
+ul {
+  padding: 0;
+}
