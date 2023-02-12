@@ -86,28 +86,6 @@ footer {
   }
 }
 
-/* @media (min-width: 1550px) {
-  img {
-    width: 490px;
-    height: 340px;
-  }
-}
-
-@media (max-width: 1340px) {
-  img {
-    width: 350px;
-    height: 270px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .img-content {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 25px;
-  }
-} */
-
 .navbar {
   background-color: #302f2f;
   margin: 0;
