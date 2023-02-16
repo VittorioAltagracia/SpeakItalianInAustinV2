@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- Custom font styles begin here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom font styles end here -->
+
+    <link rel="stylesheet" href="myStyle.css" />
+    <title>Parliamo Italiano ad Austin</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="jumbotron jumbotron-fluid">Speak italian in Austin!</h1>
+    </header>
+    <!-- navigation bar starts here -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top py-0">
+      <button
+        class="navbar-toggler ml-auto m-1"
+        type="button"
+        data-toggle="collapse"
+        data-target="#italianNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="italianNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">
+              <i class="fa fa-home fa-lg"></i> Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html"
+              ><i class="fa fa-users"></i> Look at us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa fa-coffee"></i> What we do</a
+            >
+          </li>
+          <li class="nav-item dropdown dropright">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa fa-language"> </i>
+              Languages
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item text-md-center" href="index.html">
+                English</a
+              >
+              <a class="dropdown-item text-md-center" href="indexIT.html">
+                Italian</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <article>
+      <div class="card">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-6 mr-5 mt-4 align-self-center">
+              <img
+                class="d-flex img-thumbnail img-fluid card-img"
+                src="imgs/photo3.jpg"
+                height="auto"
+              />
+            </div>
+            <div class="col-xs-auto col-md-5 mt-4 align-self-center">
+              <img
+                class="d-flex img-thumbnail img-fluid mt-3 card-img"
+                src="imgs/photo5.jpg"
+                alt="group of people at Lazarus restaurant"
+                height="auto"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-xs-auto col-sm-auto col-md-5 mt-5 mr-5 mb-5 align-self-center"
+            >
+              <img
+                class="d-flex img-thumbnail img-fluid card-img"
+                src="imgs/photo1.jpg"
+                lt="group of people at Lazarus restaurant"
+                height="auto"
+              />
+            </div>
+            <div
+              class="col-xs-auto col-sm-auto col-md-6 mb-5 align-self-center"
+            >
+              <img
+                class="d-flex img-thumbnail img-fluid card-img"
+                src="imgs/photo2.jpg"
+                alt="group of people at Lazarus restaurant"
+                height="auto"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
