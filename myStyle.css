@@ -14,7 +14,7 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  padding: 80px;
+  padding: 60px;
   font-family: "Itim", cursive, sans-serif;
   margin: 0;
 }
@@ -67,6 +67,25 @@ footer {
   margin-top: 40px;
 }
 
+.container-fluid {
+  max-height: 700px;
+  margin-top: 60px;
+}
+
+.custom-class {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 620px) {
+  .jumbotron {
+    padding: 50px;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   p,
   ul {
@@ -83,6 +102,68 @@ footer {
 @media screen and (min-width: 1500px) {
   ul {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .custom-class {
+    object-fit: cover;
+    height: 370px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .custom-class {
+    object-fit: cover;
+    height: 350px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 820px) {
+  .custom-class {
+    object-fit: cover;
+    height: 520px;
+    width: 630px;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .custom-class {
+    object-fit: cover;
+    height: 590px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1370px) {
+  .custom-class {
+    object-fit: cover;
+    height: 670px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .custom-class {
+    object-fit: cover;
+    height: 690px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .container-fluid {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-fluid {
+    margin-top: 90px;
+    margin-bottom: 90px;
   }
 }
 

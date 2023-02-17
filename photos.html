@@ -37,9 +37,9 @@
     </header>
     <!-- navigation bar starts here -->
 
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top py-0">
+    <nav class="navbar navbar-expand-sm navbar-dark py-0">
       <button
-        class="navbar-toggler ml-auto m-1"
+        class="navbar-toggler ml-auto m-2"
         type="button"
         data-toggle="collapse"
         data-target="#italianNavbar"
@@ -55,7 +55,7 @@
             >
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#"
+            <a class="nav-link testing" href="#"
               ><i class="fa fa-users"></i> Look at us</a
             >
           </li>
@@ -89,9 +89,9 @@
       </div>
     </nav>
 
-    <div class="container-fluid mt-5 mb-5">
+    <div class="container-fluid mb-5">
       <div class="row justify-content-center align-items-center">
-        <div class="col-10 col-md-8 col-xl-6 align-self-center">
+        <div class="col-10 col-md-10 col-lg-10 col-xl-8 align-self-center">
           <div
             id="photosCarousel"
             class="carousel slide carousel-fade"
@@ -108,23 +108,26 @@
             </ol>
 
             <div class="carousel-inner">
-              <div class="carousel-item active" data-interval="1000">
-                <img class="d-block w-100" src="imgs/photo3.jpg" />
-              </div>
-
-              <div class="carousel-item" data-interval="10000">
+              <div class="carousel-item active" data-interval="2000">
                 <img
-                  class="d-block w-100"
-                  src="imgs/photo1.jpg"
-                  alt="group of people at Lazarus restaurant"
-                  height="400"
+                  class="d-block w-100 custom-class img-thumbnail"
+                  src="imgs/photo3.jpg"
+                  alt="group of friends at on the couch"
                 />
               </div>
-              <div class="carousel-item" data-interval="3000">
+
+              <div class="carousel-item" data-interval="2000">
                 <img
-                  class="d-block w-100"
+                  class="d-block w-100 custom-class img-thumbnail"
+                  src="imgs/photo1.jpg"
+                  alt="group of friends at on the couch"
+                />
+              </div>
+              <div class="carousel-item" data-interval="2000">
+                <img
+                  class="d-block w-100 custom-class img-thumbnail"
                   src="imgs/photo2.jpg"
-                  alt="group of people at Lazarus restaurant"
+                  alt="group of friends at on the couch"
                 />
               </div>
             </div>
@@ -136,5 +139,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
