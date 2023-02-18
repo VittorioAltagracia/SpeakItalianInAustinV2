@@ -181,3 +181,7 @@ img {
   padding-right: 0;
   margin-right: 0;
 }
+
+.carousel {
+  border: ridge #46155c;
+}
