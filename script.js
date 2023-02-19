@@ -1,12 +1,16 @@
 "use strict";
 
-// const photosItVer = document.querySelector(".testing");
-// console.log(photosItVer);
+// Selecting elements on IndexIT
 // const chiSiamo = document.querySelector(".chi-siamo");
-// console.log(chiSiamo);
 
-// const test = document.querySelector(".test");
+// // Selecting elements on Photos
 
-// chiSiamo.addEventListener("click", function () {
-//   photosItVer.textContent = "Chi siamo";
-// });
+// const lookAtUs = document.querySelector(".lookAtUs");
+
+// let page = document.body.id;
+
+// if (page === "it") {
+//   console.log("it");
+// } else {
+//   console.log("english");
+// }

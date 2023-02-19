@@ -19,12 +19,6 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1500px) {
-  .jumbotron {
-    font-size: 3.5rem;
-  }
-}
-
 article {
   margin-left: 30px;
   margin-right: 30px;
@@ -79,6 +73,12 @@ footer {
 }
 
 /* media queries */
+
+@media (min-width: 1500px) {
+  .jumbotron {
+    font-size: 3.5rem;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .jumbotron {
