@@ -58,12 +58,15 @@ p {
 }
 
 footer {
-  margin-top: 40px;
+  border-top: 1px ridge;
+  padding-top: 15px;
 }
 
 .container-fluid {
-  max-height: 700px;
+  max-height: 720px;
   margin-top: 60px;
+  padding-bottom: 4rem;
+  border-bottom: 1px ridge;
 }
 
 .custom-class {
@@ -183,5 +186,9 @@ img {
 }
 
 .carousel {
-  border: ridge #46155c;
+  border: ridge #302f2f;
+}
+
+.hidden {
+  display: none;
 }
