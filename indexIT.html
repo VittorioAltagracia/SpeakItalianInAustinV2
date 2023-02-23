@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html class="html" lang="it">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
     <!-- Custom font styles begin here -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,7 +35,7 @@
   </head>
   <body id="it">
     <header>
-      <h1 class="jumbotron jumbotron-fluid">Parla Italiano ad Austin!</h1>
+      <h1 class="title jumbotron jumbotron-fluid"></h1>
     </header>
     <!-- navigation bar starts here -->
 
@@ -79,10 +79,16 @@
               Lingue
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-md-center" href="index.html">
+              <a
+                id="englishLink"
+                class="dropdown-item text-md-center"
+                href="index.html"
+              >
                 English</a
               >
-              <a class="dropdown-item text-md-center" href="#"> Italian</a>
+              <a id="italianLink" class="dropdown-item text-md-center" href="#">
+                Italian</a
+              >
             </div>
           </li>
         </ul>
@@ -192,6 +198,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/data.js"></script>
   </body>
 </html>

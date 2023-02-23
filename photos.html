@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="html" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -33,7 +33,7 @@
   </head>
   <body id="photos-en">
     <header>
-      <h1 class="jumbotron jumbotron-fluid">Speak italian in Austin!</h1>
+      <h1 class="title jumbotron jumbotron-fluid"></h1>
     </header>
     <!-- navigation bar starts here -->
 
@@ -77,10 +77,18 @@
               Languages
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-md-center" href="index.html">
+              <a
+                id="englishLink"
+                class="dropdown-item text-md-center"
+                href="index.html"
+              >
                 English</a
               >
-              <a class="dropdown-item text-md-center" href="indexIT.html">
+              <a
+                id="italianLink"
+                class="dropdown-item text-md-center"
+                href="indexIT.html"
+              >
                 Italian</a
               >
             </div>
@@ -159,6 +167,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/data.js"></script>
   </body>
 </html>
