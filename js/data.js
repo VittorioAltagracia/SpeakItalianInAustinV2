@@ -4,7 +4,7 @@ export { content };
 const content = {
   //Define all content for an HTML page, with all translations done here
   title: {
-    en: "Speak italian in Austin!",
+    en: "Speak Italian in Austin!",
     it: "Parliamo Italiano ad Austin!",
   },
   homeLink: {
