@@ -8,8 +8,8 @@ const content = {
     it: "Parliamo Italiano ad Austin!",
   },
   homeLink: {
-    en: "",
-    it: "",
+    en: "Join us for our monthly events!",
+    it: "Unisciti a noi ai nostri eventi mensili!",
   },
   photoLink: {
     en: "",
