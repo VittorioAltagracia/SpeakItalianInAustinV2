@@ -14,15 +14,9 @@ body {
   display: flex;
   align-self: center;
   justify-content: center;
-  padding: 80px;
+  padding: 60px;
   font-family: "Itim", cursive, sans-serif;
   margin: 0;
-}
-
-@media (min-width: 1500px) {
-  .jumbotron {
-    font-size: 3.5rem;
-  }
 }
 
 article {
@@ -63,8 +57,41 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
 footer {
-  margin-top: 40px;
+  border-top: 1px ridge;
+
+  padding-top: 15px;
+}
+
+.container-fluid {
+  max-height: 700px;
+  margin-top: 60px;
+  padding-bottom: 4rem;
+  border-bottom: 1px ridge;
+}
+
+.custom-class {
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+}
+
+/* media queries */
+
+@media (min-width: 1500px) {
+  .jumbotron {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .jumbotron {
+    padding: 50px;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -86,35 +113,93 @@ footer {
   }
 }
 
-/* @media (min-width: 1550px) {
-  img {
-    width: 490px;
-    height: 340px;
+@media screen and (max-width: 590px) {
+  .custom-class {
+    object-fit: cover;
+    height: 370px;
+    width: 320px;
   }
 }
 
-@media (max-width: 1340px) {
-  img {
-    width: 350px;
-    height: 270px;
+@media screen and (max-width: 640px) {
+  .custom-class {
+    object-fit: cover;
+    height: 350px;
+    width: 300px;
   }
 }
 
-@media (max-width: 1000px) {
-  .img-content {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 25px;
+@media screen and (min-width: 820px) {
+  .custom-class {
+    object-fit: cover;
+    height: 520px;
+    width: 630px;
   }
-} */
+}
+
+@media screen and (min-width: 950px) {
+  .custom-class {
+    object-fit: cover;
+    height: 590px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1370px) {
+  .custom-class {
+    object-fit: cover;
+    height: 670px;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .custom-class {
+    object-fit: cover;
+    height: 690px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .container-fluid {
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .container-fluid {
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (min-width: 578px) {
+  .navbar {
+    max-height: 70px;
+  }
+}
 
 .navbar {
   background-color: #302f2f;
   margin: 0;
-  max-height: 70px;
 }
 
-/* .collapse:last-child {
-  display: flex;
-  justify-content: space-between;
+.navbar a,
+ul {
+  padding: 0;
+}
+
+img {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* .carousel {
+  border: ridge #ab8bba;
 } */
+
+.hidden {
+  display: none;
+}
