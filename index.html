@@ -34,8 +34,8 @@
     <title>Parliamo Italiano ad Austin</title>
   </head>
   <body>
-    <header>
-      <h1 class="jumbotron jumbotron-fluid">Speak italian in Austin!</h1>
+    <header id="en">
+      <h1 class="title jumbotron jumbotron-fluid"></h1>
     </header>
 
     <!-- navigation bar starts here -->
@@ -53,40 +53,43 @@
       <div class="collapse navbar-collapse" id="italianNavbar">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">
-              <i class="fa fa-home fa-lg"></i> Home</a
-            >
+            <a class="nav1 nav-link fa fa-home" href="#"> </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="photos.html"
-              ><i class="fa fa-users"></i> Look at us</a
-            >
+            <a class="nav2 nav-link fa fa-users" href="photos.html"></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"
-              ><i class="fa fa-coffee"></i> What we do</a
-            >
+            <a class="nav3 nav-link fa fa-coffee" href="#"></a>
           </li>
           <li class="nav-item dropdown dropright">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav4 nav-link dropdown-toggle fa fa-language"
               href="#"
               id="navbarDropdownMenuLink"
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
             >
-              <i class="fa fa-language"> </i>
-              Languages
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-md-center" href="#"> English</a>
-              <a class="dropdown-item text-md-center" href="indexIT.html">
+              <a id="englishLink" class="dropdown-item text-md-center" href="#">
+                English</a
+              >
+              <a id="italianLink" class="dropdown-item text-md-center">
                 Italian</a
               >
             </div>
           </li>
         </ul>
+        <li class="navbar-text ml-auto">
+          <a
+            class="nav5 fa fa-envelope"
+            role="button"
+            data-toggle="modal"
+            data-target="#contactUsModal"
+          >
+          </a>
+        </li>
       </div>
     </nav>
 
@@ -102,13 +105,8 @@
             />
           </div>
           <div class="col-sm-auto col-md-6">
-            <span>Join us for our monthly events!</span>
-            <p>
-              <i>Who are we?</i> Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Laudantium soluta quis, illo rerum ad
-              necessitatibus fuga adipisci? Voluptates commodi at amet
-              aspernatur, sint porro pariatur optio, nostrum deleniti, illo rem.
-            </p>
+            <span class="header1"></span>
+            <p class="par1"></p>
           </div>
         </div>
         <div class="row mt-5">
@@ -123,15 +121,8 @@
             />
           </div>
           <div class="col-sm-auto col-md-6">
-            <span class="span3">Why learn Italian?</span>
-            <p>
-              Because it's one of the best investments you can possibly make in
-              yourself. Lorem ipsum dolor, sit amet consectetur adipisicing
-              elit. Quis eveniet architecto dolores excepturi pariatur veritatis
-              reprehenderit sit, enim repellendus, voluptates dolor,
-              exercitationem voluptatem ullam laborum eius consectetur. Illum,
-              et reprehenderit!
-            </p>
+            <span class="header2"></span>
+            <p class="par2"></p>
           </div>
         </div>
       </div>
@@ -162,28 +153,53 @@
                   ><i class="fa fa-leanpub"></i> Italiano Automatico
                 </a>
               </li>
-              <li>
+              <!-- <li>
                 <a href="#"
                   ><i class="fa fa-envelope"></i>
                   vittorioaltagracia@gmail.com</a
                 >
+              </li> -->
+              <li>
+                <a
+                  href="https://www.facebook.com/groups/816111071733733"
+                  target="_blank"
+                  alt="link to our facebook group"
+                  ><i class="fa fa-facebook fa-lg"></i> - "Parliamo Italiano ad
+                  Austin"
+                </a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </aside>
+    <div id="contactUsModal" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">Tell us about yourself</h3>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
     <footer>
       <div class="container">
         <div class="row">
           <div class="col text-center">
             <p class="face">
-              <a
-                href="https://www.facebook.com/groups/816111071733733"
-                alt="link to our facebook group"
-                ><i class="fa fa-facebook fa-lg"></i
-              ></a>
-              - "Parliamo Italiano ad Austin"
+              <button class="btn btn-dark btn-lg">
+                <a
+                  role="button"
+                  data-toggle="modal"
+                  data-target="#contactUsModal"
+                >
+                  <i class="fa fa-phone"></i> Contact us
+                </a>
+              </button>
             </p>
           </div>
         </div>
@@ -193,6 +209,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/data.js"></script>
   </body>
 </html>

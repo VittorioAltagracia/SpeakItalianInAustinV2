@@ -19,12 +19,6 @@ body {
   margin: 0;
 }
 
-@media (min-width: 1500px) {
-  .jumbotron {
-    font-size: 3.5rem;
-  }
-}
-
 article {
   margin-left: 30px;
   margin-right: 30px;
@@ -63,13 +57,21 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
 footer {
-  margin-top: 40px;
+  border-top: 1px ridge;
+
+  padding-top: 15px;
 }
 
 .container-fluid {
   max-height: 700px;
   margin-top: 60px;
+  padding-bottom: 4rem;
+  border-bottom: 1px ridge;
 }
 
 .custom-class {
@@ -79,6 +81,12 @@ footer {
 }
 
 /* media queries */
+
+@media (min-width: 1500px) {
+  .jumbotron {
+    font-size: 3.5rem;
+  }
+}
 
 @media screen and (max-width: 620px) {
   .jumbotron {
@@ -167,6 +175,12 @@ footer {
   }
 }
 
+@media screen and (min-width: 578px) {
+  .navbar {
+    max-height: 70px;
+  }
+}
+
 .navbar {
   background-color: #302f2f;
   margin: 0;
@@ -180,4 +194,12 @@ ul {
 img {
   padding-right: 0;
   margin-right: 0;
+}
+
+/* .carousel {
+  border: ridge #ab8bba;
+} */
+
+.hidden {
+  display: none;
 }
