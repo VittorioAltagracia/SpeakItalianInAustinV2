@@ -196,9 +196,9 @@ img {
   margin-right: 0;
 }
 
-.carousel {
-  border: ridge #46155c;
-}
+/* .carousel {
+  border: ridge #ab8bba;
+} */
 
 .hidden {
   display: none;
