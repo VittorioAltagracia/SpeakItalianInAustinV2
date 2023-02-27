@@ -59,7 +59,7 @@
             <a class="nav2 nav-link fa fa-users" href="photos.html"></a>
           </li>
           <li class="nav-item">
-            <a class="nav3 nav-link fa fa-coffee" href="#"></a>
+            <a class="nav3 nav-link fa fa-coffee" href="do.html"></a>
           </li>
           <li class="nav-item dropdown dropright">
             <a
@@ -80,16 +80,16 @@
               >
             </div>
           </li>
+          <li class="nav-item">
+            <a
+              class="nav5 nav-link fa fa-envelope"
+              role="button"
+              data-toggle="modal"
+              data-target="#contactUsModal"
+            >
+            </a>
+          </li>
         </ul>
-        <li class="navbar-text ml-auto">
-          <a
-            class="nav5 fa fa-envelope"
-            role="button"
-            data-toggle="modal"
-            data-target="#contactUsModal"
-          >
-          </a>
-        </li>
       </div>
     </nav>
 
@@ -174,7 +174,10 @@
       </div>
     </aside>
     <div id="contactUsModal" class="modal fade" role="dialog">
-      <div class="modal-dialog" role="document">
+      <div
+        class="modal-dialog modal-dialog-centered modal-dialog-scrollable"
+        role="document"
+      >
         <div class="modal-content">
           <div class="modal-header">
             <h3 class="modal-title">Tell us about yourself</h3>
@@ -182,7 +185,20 @@
               &times;
             </button>
           </div>
-          <div class="modal-body"></div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <form>
+                <div class="form-group row">
+                  <div class="col-sm-4">
+                    <label class="col-form-label" for="test"> Your name </label>
+                  </div>
+                  <div class="col-xs-auto col-sm-8">
+                    <textarea> </textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -190,7 +206,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p class="face">
+            <p>
               <button class="btn btn-dark btn-lg">
                 <a
                   role="button"
