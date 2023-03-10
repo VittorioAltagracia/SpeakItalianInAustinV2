@@ -61,6 +61,11 @@ li {
   font-family: "Montserrat", sans-serif;
 }
 
+h3,
+h5 {
+  font-family: "Itim", cursive, sans-serif;
+}
+
 footer {
   border-top: 1px ridge;
 
@@ -202,4 +207,14 @@ img {
 
 .card-text {
   font-size: 14px;
+}
+
+/* hover animation */
+
+.item {
+  transition: 0.9s;
+}
+
+.first-animation:hover > :not(:hover) {
+  opacity: 0.3;
 }

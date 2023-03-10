@@ -59,13 +59,25 @@ const content = {
     exercitationem voluptatem ullam laborum eius consectetur. Illum,
     et reprehenderit!`,
   },
-  paragraph1Title: {
-    en: "",
-    it: "",
+  par3: {
+    en: `Look at us. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Quis eveniet architecto dolores excepturi pariatur veritatis
+    reprehenderit sit, enim repellendus, voluptates dolor,
+    exercitationem voluptatem ullam laborum eius consectetur. Illum,
+    et reprehenderit!`,
+    it: `Guardaci. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Quis eveniet architecto dolores excepturi pariatur veritatis
+    reprehenderit sit, enim repellendus, voluptates dolor,
+    exercitationem voluptatem ullam laborum eius consectetur. Illum,
+    et reprehenderit!`,
   },
-  paragraph1Content: {
-    en: "",
-    it: "",
+  overlay1: {
+    en: "A little bit too serious",
+    it: "Un pochino seri",
+  },
+  overlay2: {
+    en: "Are those the same people?",
+    it: "Ma è la stessa gente?",
   },
   paragraph2Title: {
     en: "",
