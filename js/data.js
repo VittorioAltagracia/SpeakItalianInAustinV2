@@ -8,12 +8,12 @@ const content = {
     it: "Parliamo Italiano ad Austin!",
   },
   nav1: {
-    en: " Home",
-    it: " Home",
+    en: " Who are we",
+    it: " Chi siamo",
   },
   nav2: {
     en: " Look at us",
-    it: " Chi siamo",
+    it: " Guardaci",
   },
   nav3: {
     en: " What we do",

@@ -1,6 +1,6 @@
 "use strict";
 import { content } from "/js/data.js";
-
+// https://wireframe.cc/Iflnn9
 // selecting dropdown links
 const englishLink = document.getElementById("englishLink");
 const italianLink = document.getElementById("italianLink");
