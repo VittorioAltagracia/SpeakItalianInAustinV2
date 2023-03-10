@@ -89,38 +89,49 @@
         <!-- Row with 2 overlayed images starts below -->
         <div class="row">
           <div class="col-xs-auto col-md-6 pr-3 mb-4 mb-sm-4">
-            <div class="card bg-dark text-white">
+            <div class="card bg-dark text-white firstImg">
               <img
                 src="/imgs/WishuHere1.jpg"
                 class="card-img"
                 alt="group of friends in Italian meetup"
               />
+              <!-- overlay -->
               <div class="card-img-overlay">
                 <h5 class="card-title text-center">Test</h5>
-                <p class="card-text d-none d-lg-block">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas nemo id illum doloremque voluptatibus ex! Debitis,
-                  culpa omnis ad animi provident ab odio tempore nesciunt!
-                </p>
               </div>
+              <!--  -->
             </div>
+            <!-- hidden text -->
+            <div class="card-body bg-white text-dark firstCard border hidden">
+              <h5 class="card-title">Test test</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <!--  -->
           </div>
           <div class="col-xs-auto col-md-6 pl-3 mb-4 mb-sm-4">
-            <div class="card bg-dark text-white">
+            <div class="card bg-dark text-white secondImg">
               <img
                 src="/imgs/WishuHere2.jpg"
                 class="card-img"
                 alt="group of friends in Italian meetup"
               />
+              <!-- overlay -->
+
               <div class="card-img-overlay">
                 <h5 class="card-title text-center">Test</h5>
-                <p class="card-text d-none d-lg-block">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptas nemo id illum doloremque voluptatibus ex! Debitis,
-                  culpa omnis ad animi provident ab odio tempore nesciunt!
-                </p>
               </div>
+              <!--  -->
             </div>
+            <!-- hidden text -->
+            <div class="card-body bg-white text-dark secondCard border hidden">
+              <h5 class="card-title">Test test</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </div>
+            <!--  -->
           </div>
         </div>
         <h3 class="text-center mb-4">Some of our events</h3>
@@ -130,7 +141,7 @@
             <img
               src="/imgs/photo4.jpg"
               class="card-img-top img-thumbnail"
-              alt="eating pizza after chicken bingo"
+              alt="having drinks after chicken bingo"
             />
             <div class="card-body">
               <h5 class="card-title">Test test</h5>
@@ -218,5 +229,6 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="module" src="js/script.js"></script>
     <script type="module" src="js/data.js"></script>
+    <script type="module" src="js/ShowHide.js"></script>
   </body>
 </html>
