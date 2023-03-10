@@ -1,10 +1,10 @@
 "use strict";
-// logic for mouseover/ mouseout
+
 const firstImg = $(".firstImg");
 const firstCard = $(".firstCard");
 const secondImg = $(".secondImg");
 const secondCard = $(".secondCard");
-
+// logic for mouseover/ mouseout
 function ShowCard(img, card) {
   if (img) {
     $(img).on("mouseover", () => {
