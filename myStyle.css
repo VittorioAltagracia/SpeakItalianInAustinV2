@@ -31,14 +31,14 @@ article {
   min-width: 400px;
 }
 
-.img-content {
+/* .img-content {
   margin-top: 30px;
   border-bottom: 1px ridge;
   padding: 60px 0;
   padding-bottom: 35px;
   min-height: 200px;
   min-width: 400px;
-}
+} */
 
 ul {
   padding: 20px;
@@ -57,15 +57,27 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3,
+h5 {
+  font-family: "Itim", cursive, sans-serif;
+}
+
 footer {
-  margin-top: 40px;
+  border-top: 1px ridge;
+
+  padding-top: 15px;
 }
 
 .container-fluid {
-  max-height: 700px;
+  max-height: 1100px;
   margin-top: 60px;
+  padding-bottom: 2rem;
 }
-
+/* Handles responsivenes of images */
 .custom-class {
   object-fit: cover;
   height: 400px;
@@ -80,6 +92,12 @@ footer {
   }
 }
 
+@media (max-width: 629px) {
+  .jumbotron {
+    font-size: 1.75rem;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .jumbotron {
     padding: 50px;
@@ -88,20 +106,15 @@ footer {
 
 @media screen and (min-width: 1500px) {
   p,
-  ul {
-    font-size: 22px;
+  ul,
+  a {
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1500px) {
   span {
     font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  ul {
-    font-size: 20px;
   }
 }
 
@@ -167,6 +180,35 @@ footer {
   }
 }
 
+@media screen and (min-width: 578px) {
+  .navbar {
+    max-height: 70px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .navbar,
+  ul {
+    font-size: 18.5px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .navbar,
+  ul {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .navbar,
+  ul {
+    font-size: 1.5rem;
+  }
+}
+
+/* end of media queries */
+
 .navbar {
   background-color: #302f2f;
   margin: 0;
@@ -182,6 +224,70 @@ img {
   margin-right: 0;
 }
 
-.carousel {
-  border: ridge #46155c;
+.hidden {
+  display: none;
 }
+
+.card-text {
+  font-size: 14px;
+}
+
+/* hover animation */
+
+.item {
+  transition: 0.9s;
+}
+
+.first-animation:hover > :not(:hover) {
+  opacity: 0.3;
+}
+/*  */
+
+/* Last img styling on page with cards*/
+.zio {
+  opacity: 0.9;
+  position: relative;
+  padding: 0;
+}
+
+.special {
+  position: absolute;
+  top: -29px;
+  left: 20px;
+  font-weight: bolder;
+  background-color: #131212;
+}
+
+@media screen and (max-width: 700px) {
+  .special {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 700px) {
+  .special {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .special {
+    position: absolute;
+    top: -30px;
+    font-weight: bold;
+  }
+}
+
+.last-zio {
+  margin: 0;
+  text-decoration: underline;
+}
+
+/* .testing {
+  margin-bottom: 100px;
+} */
