@@ -12,12 +12,12 @@ const content = {
     it: " Chi siamo",
   },
   nav2: {
-    en: " Look at us",
-    it: " Guardaci",
-  },
-  nav3: {
     en: " What we do",
     it: " Cosa facciamo",
+  },
+  nav3: {
+    en: " Look at us",
+    it: " Guardaci",
   },
   nav4: {
     en: " Languages",
@@ -60,12 +60,8 @@ const content = {
     et reprehenderit!`,
   },
   par3: {
-    en: `Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who enjoy learning languages, programming, hiking, boxing, partying, making music, etc.`,
-    it: `Guardaci. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    Quis eveniet architecto dolores excepturi pariatur veritatis
-    reprehenderit sit, enim repellendus, voluptates dolor,
-    exercitationem voluptatem ullam laborum eius consectetur. Illum,
-    et reprehenderit!`,
+    en: `Look at us. Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc.`,
+    it: `Guardaci. Sostanzialmente siamo le persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente godono il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc.`,
   },
   overlay1: {
     en: "A little bit too serious",
@@ -73,15 +69,15 @@ const content = {
   },
   overlay2: {
     en: "Are those the same people?",
-    it: "Ma è la stessa gente?",
+    it: "Ti aspettiamo",
   },
   firstCardTitle: {
-    en: " We wish you were here",
-    it: " Vorremo che tu fossi qui",
+    en: "We wish you were here",
+    it: "Vorremo che tu fossi qui",
   },
   secondCardTitle: {
-    en: " Are you not here yet?",
-    it: " Ma non sei ancora qui?",
+    en: "Are you not here yet?",
+    it: "Ma non sei ancora qui?",
   },
   firstCardText: {
     en: "Positive emotions is one of the main attributes of our meetups",
