@@ -218,3 +218,49 @@ img {
 .first-animation:hover > :not(:hover) {
   opacity: 0.3;
 }
+/*  */
+
+/* Last img styling */
+.zio {
+  opacity: 0.9;
+  position: relative;
+  padding: 0;
+}
+
+.special {
+  position: absolute;
+  top: -29px;
+  left: 20px;
+  font-weight: bolder;
+  background-color: #131212;
+}
+
+@media screen and (max-width: 700px) {
+  .special {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 700px) {
+  .special {
+    position: absolute;
+    top: -33px;
+    left: 0;
+    font-weight: bold;
+  }
+}
+
+@media screen and (max-width: 784px) {
+  .special {
+    position: absolute;
+    top: -30px;
+    font-weight: bold;
+  }
+}
+
+.last-zio {
+  margin: 0;
+  text-decoration: underline;
+}

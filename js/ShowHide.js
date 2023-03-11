@@ -7,14 +7,14 @@ const secondCard = $(".secondCard");
 // logic for mouseover/ mouseout
 function ShowCard(img, card) {
   if (img) {
-    $(img).on("mouseover", () => {
-      if ($(card).hasClass("hidden")) {
-        $(card).removeClass("hidden");
+    img.on("mouseover", () => {
+      if (card.hasClass("hidden")) {
+        card.removeClass("hidden");
       }
     });
 
-    $(img).on("mouseout", () => {
-      $(card).addClass("hidden");
+    img.on("mouseout", () => {
+      card.addClass("hidden");
     });
   }
 }
