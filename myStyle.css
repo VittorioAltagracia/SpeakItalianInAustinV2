@@ -31,14 +31,14 @@ article {
   min-width: 400px;
 }
 
-.img-content {
+/* .img-content {
   margin-top: 30px;
   border-bottom: 1px ridge;
   padding: 60px 0;
   padding-bottom: 35px;
   min-height: 200px;
   min-width: 400px;
-}
+} */
 
 ul {
   padding: 20px;
@@ -73,12 +73,11 @@ footer {
 }
 
 .container-fluid {
-  max-height: 900px;
+  max-height: 1100px;
   margin-top: 60px;
-  padding-bottom: 4rem;
-  border-bottom: 1px ridge;
+  padding-bottom: 2rem;
 }
-
+/* Handles responsivenes of images */
 .custom-class {
   object-fit: cover;
   height: 400px;
@@ -93,6 +92,12 @@ footer {
   }
 }
 
+@media (max-width: 629px) {
+  .jumbotron {
+    font-size: 1.75rem;
+  }
+}
+
 @media screen and (max-width: 620px) {
   .jumbotron {
     padding: 50px;
@@ -101,20 +106,15 @@ footer {
 
 @media screen and (min-width: 1500px) {
   p,
-  ul {
-    font-size: 22px;
+  ul,
+  a {
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1500px) {
   span {
     font-size: 24px;
-  }
-}
-
-@media screen and (min-width: 1500px) {
-  ul {
-    font-size: 20px;
   }
 }
 
@@ -186,6 +186,29 @@ footer {
   }
 }
 
+@media screen and (min-width: 650px) {
+  .navbar,
+  ul {
+    font-size: 18.5px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .navbar,
+  ul {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  .navbar,
+  ul {
+    font-size: 1.5rem;
+  }
+}
+
+/* end of media queries */
+
 .navbar {
   background-color: #302f2f;
   margin: 0;
@@ -220,7 +243,7 @@ img {
 }
 /*  */
 
-/* Last img styling */
+/* Last img styling on page with cards*/
 .zio {
   opacity: 0.9;
   position: relative;
@@ -264,3 +287,7 @@ img {
   margin: 0;
   text-decoration: underline;
 }
+
+/* .testing {
+  margin-bottom: 100px;
+} */

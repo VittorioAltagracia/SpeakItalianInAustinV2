@@ -60,8 +60,20 @@ const content = {
     et reprehenderit!`,
   },
   par3: {
-    en: `Look at us. Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc.`,
-    it: `Guardaci. Sostanzialmente siamo le persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente godono il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc.`,
+    en: `Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc.`,
+    it: `Sostanzialmente siamo le persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente godono il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc.`,
+  },
+  par4: {
+    en: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Quis eveniet architecto dolores excepturi pariatur veritatis
+    reprehenderit sit, enim repellendus, voluptates dolor,
+    exercitationem voluptatem ullam laborum eius consectetur. Illum,
+    et reprehenderit!`,
+    it: `Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    Quis eveniet architecto dolores excepturi pariatur veritatis
+    reprehenderit sit, enim repellendus, voluptates dolor,
+    exercitationem voluptatem ullam laborum eius consectetur. Illum,
+    et reprehenderit!`,
   },
   overlay1: {
     en: "A little bit too serious",
