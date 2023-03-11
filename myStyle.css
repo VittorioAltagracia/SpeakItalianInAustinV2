@@ -288,6 +288,10 @@ img {
   text-decoration: underline;
 }
 
-/* .testing {
-  margin-bottom: 100px;
-} */
+a:link {
+  color: #302f2f;
+}
+
+a:visited {
+  color: #302f2f;
+}
