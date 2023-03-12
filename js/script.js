@@ -1,6 +1,5 @@
 "use strict";
 import { content } from "/js/data.js";
-// https://wireframe.cc/Iflnn9
 // selecting dropdown links
 const englishLink = document.getElementById("englishLink");
 const italianLink = document.getElementById("italianLink");
@@ -25,3 +24,8 @@ function changeLang(newLangCode) {
     el.textContent = content[el.classList[0]][newLangCode]; //Replace the text for that element with the right text from the content object
   }
 }
+
+// Tooltip activation
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});

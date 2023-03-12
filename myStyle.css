@@ -295,3 +295,7 @@ a:link {
 a:visited {
   color: #302f2f;
 }
+
+.foundIssue {
+  font-size: 1rem;
+}
