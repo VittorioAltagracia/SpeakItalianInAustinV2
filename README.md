@@ -1,6 +1,16 @@
 # SpeakItalianInAustinV2
 A website-project for Italian speaking community of Austin
 
+Libraries/langages used:
+
+- Bootstrap
+- Font awesome
+- Google fonts
+- CSS
+- JavaScript
+- HTML
+- jQuery (a little bit)
+
 Bootstrap powered responsive website for Italian speaking community of Austin, TX
 
 Layout is build mostly with bootstrap components and styling with addition of custom css and numerous media queries
