@@ -1,7 +1,7 @@
 # SpeakItalianInAustinV2
 A website-project for Italian speaking community of Austin
 
-Libraries/langages used:
+Libraries/languages used:
 
 - Bootstrap
 - Font awesome
