@@ -1,23 +1,23 @@
 "use strict";
 export { content };
 
+//Defined content for HTML pages; translation is included
 const content = {
-  //Define all content for an HTML page, with all translations done here
   title: {
     en: "Speak Italian in Austin!",
     it: "Parliamo Italiano ad Austin!",
   },
   nav1: {
-    en: " Home",
-    it: " Home",
-  },
-  nav2: {
-    en: " Look at us",
+    en: " Who are we",
     it: " Chi siamo",
   },
-  nav3: {
+  nav2: {
     en: " What we do",
     it: " Cosa facciamo",
+  },
+  nav3: {
+    en: " Look at us",
+    it: " Guardaci",
   },
   nav4: {
     en: " Languages",
@@ -36,47 +36,102 @@ const content = {
     it: "Per ché imparare l'italiano?",
   },
   par1: {
-    en: `Who are we? Lorem ipsum dolor sit amet consectetur
-    adipisicing elit. Laudantium soluta quis, illo rerum ad
-    necessitatibus fuga adipisci? Voluptates commodi at amet
-    aspernatur, sint porro pariatur optio, nostrum deleniti, illo rem.`,
-    it: `Chi siamo? Lorem ipsum dolor sit amet consectetur
-    adipisicing elit. Laudantium soluta quis, illo rerum ad
-    necessitatibus fuga adipisci? Voluptates commodi at amet
-    aspernatur, sint porro pariatur optio, nostrum deleniti, illo rem.`,
+    en: `Who are we? Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc. This is a venue for conversations open to native speakers or those who want to practice their Italian.`,
+    it: `Chi siamo? Sostanzialmente siamo le persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente godono il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc. Questa è una sede di conversazione aperto per madrelingua italiani o per quelli che vogliono pratticare il loro italiano.`,
   },
   par2: {
     en: `Because it's one of the best investments you can possibly make in
-    yourself. Lorem ipsum dolor, sit amet consectetur adipisicing
-    elit. Quis eveniet architecto dolores excepturi pariatur veritatis
-    reprehenderit sit, enim repellendus, voluptates dolor,
-    exercitationem voluptatem ullam laborum eius consectetur. Illum,
-    et reprehenderit!`,
+    yourself. Learning Italian or any language is not about grinding grammar rules. It is about living the language as a part of a culture itself. A culture that is new to you which means that it will expand your horizons and allow you to grow. Besides, you will enable yourself to communicate with others in one more language. How cool is that?`,
     it: `Perche è uno degli investimenti migliori che puoi fare su te
-    stesso. Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-    Quis eveniet architecto dolores excepturi pariatur veritatis
-    reprehenderit sit, enim repellendus, voluptates dolor,
-    exercitationem voluptatem ullam laborum eius consectetur. Illum,
-    et reprehenderit!`,
+    stesso. L'apprendimento d'italiano o qualsiasi altra lingua significa vivere la lingua come parte di una cultura, piuttosto che studiare le regole grammaticali constantemente. Cioè una cultura nuova per te, che espanderà i tuoi orrizonti e ti permetterà di crescere. Oltre quello, sbloccherai la tua communicazione con altri in ancora un'altra lingua. Ma che figata! Non credi?`,
   },
-  paragraph1Title: {
-    en: "",
-    it: "",
+  par3: {
+    en: `What we do? A ton of fun stuff! We go out to cafes, restaurants, parks, clubs, events and spend time together in a casual environment while speaking mostly Italian. Folks talk about their hobbies, travels, goals, stories, experiences and best practices to learn a language and so on. Sometimes one of us organizes a potluck or a party in their home and we get together and enjoy all the awesome food. We have people from different age groups and cultural backgrounds, so there is nothing stopping you from giving it a shot.`,
+    it: `Cosa facciamo? Un sacco di roba divertente! Andiamo ai caffe, ristoranti, park, club, eventi e passiamo il tempo assieme in un ambito informale parlando prevalentemente in italiano. La gente parla dei suoi passatempi, viaggi, obbietivi, storie, esperienze, e modi migliori per imparare una lingua, etc. A volte uno di noi organizza una festa a casa sua e ci troviamo per godere tutto il cibo fantastico. Abbiamo le persone con i diversi antefatti culturali, della età diversa, dunque non c'è nulla che possa impedirti di provarci.`,
   },
-  paragraph1Content: {
-    en: "",
-    it: "",
+  par4: {
+    en: `Do I have to be fluent in Italian to give it a shot and visit one of your events? You may have asked yourself that. No, you don't have to be fluent it Italian. Just come with desire to learn more and bring positive energy with you. You can find our next event by opening a link on the 'Who are we' page.`,
+    it: `Ma devo essere fluente in italiano per far' un tentativo e visitare uno dei nostri eventi? Forse l'avrai già chiesto. Eh no, non devi per forza essere fluente in italiano. Ma vieni con desiderio di imparare e porta l'energia positiva con te. Puoi trovare il nostro prossimo evento cliccando il link sulla pagina 'Chi siamo'.`,
   },
-  paragraph2Title: {
-    en: "",
-    it: "",
+  meetupLink: {
+    en: "Our next event",
+    it: "Il nostro prossimo evento",
   },
-  paragraph2Content: {
-    en: "",
-    it: "",
+  overlay1: {
+    en: "A little bit too serious",
+    it: "Un pochino seri",
   },
-  // contactButton: {
-  //   en: " Contact us",
-  //   it: " Contattaci",
-  // },
+  overlay2: {
+    en: "We are waiting for you",
+    it: "Ti aspettiamo",
+  },
+  firstCardTitle: {
+    en: "We wish you were here",
+    it: "Vorremo che tu fossi qui",
+  },
+  secondCardTitle: {
+    en: "Are you not here yet?",
+    it: "Ma non sei ancora qui?",
+  },
+  firstCardText: {
+    en: "Positive emotions is one of the main attributes of our meetups",
+    it: "Le emozioni positive sono uno dei attributi principali dei nostri incontri",
+  },
+  secondCardText: {
+    en: "So what do you think? See you at our next meetup?",
+    it: "E allora cosa ne pensi? Ci vediamo al prossimo incontro?",
+  },
+  look: {
+    en: "Look at some of our events",
+    it: "Dai un'occhiata ad alcuni dei nostri eventi",
+  },
+  thirdCardTitle: {
+    en: "After Chicken Bingo",
+    it: "Dopo il Chicken Bingo",
+  },
+
+  thirdCardText: {
+    en: "Yet another event where we met new people who joined us",
+    it: "Ancora un altro evento dove abbiamo conosciuto persone nuove e ci sono uniti",
+  },
+  forthCardTitle: {
+    en: "Come for a conversation, stay because of friendship",
+    it: "Venite per la conversazione, state per l'amicizia",
+  },
+  forthCardText: {
+    en: "We met on a nice day at Cherrywood Coffeehouse",
+    it: "Un bel giorno ci siamo trovati a Cherrywoord Coffeehouse",
+  },
+  fifthCardTitle: {
+    en: "At Cherrywood Coffeehouse",
+    it: "A Cherrywoord Coffeehouse",
+  },
+  fifthCardText: {
+    en: "Are we all native Italian speakers? No and that's what makes us unique",
+    it: "Ma siamo tutti madrelingua italiani? Eh no, ed è quello che ci rende unici",
+  },
+  blockquote: {
+    en: "A language is learned out of passion and not due to obligation.",
+    it: "Una lingua si impara per passione e non per dovere.",
+  },
+  unAuthor: {
+    en: "Unknown author",
+    it: `L'autore sconosciuto`,
+  },
+  sixthCardTitle: {
+    en: "At Chicken Bingo",
+    it: "A Chicken Bingo",
+  },
+  sixthCardText: {
+    en: "Merely one of the events we attended. We don`t limit ourselves when it comes to having fun. A lot of us also like dancing",
+    it: "Semplicemente uno dei eventi dove siamo andati. Non ci limitiamo quando si tratta di divertimento. A la maggioranza di noi piace anche il ballo",
+  },
+  overlay3Text: {
+    en: "Here we are at Haymaker. Don't ask what Zio Paninaro means",
+    it: "Ecco siamo qua a Haymaker. Non chiedere cosa vuol dire Zio Paninaro",
+  },
+  foundIssue: {
+    en: "Found an issue?",
+    it: "Hai trovato un errore?",
+  },
 };
