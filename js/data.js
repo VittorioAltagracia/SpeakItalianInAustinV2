@@ -37,21 +37,21 @@ const content = {
   },
   par1: {
     en: `Who are we? Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc. This is a venue for conversations open to native speakers or those who want to practice their Italian.`,
-    it: `Chi siamo? Sostanzialmente siamo le persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente godono il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc. Questa è una sede di conversazione aperto per madrelingua italiani o per quelli che vogliono pratticare il loro italiano.`,
+    it: `Chi siamo? Sostanzialmente siamo persone come te. Con i nostri difetti, talenti, obbietivi ed ambizioni. Fra noi ci sono delle persone che ballano, cantano o semplicemente amano il karaoke. C'è a chi piace l'apprendimento delle lingue, programmazione, trekking, la box, andare alle feste, fare la musica, etc. Questa è una sede di conversazione aperta per madrelingua italiani o per quelli che vogliono praticare il loro italiano.`,
   },
   par2: {
     en: `Because it's one of the best investments you can possibly make in
     yourself. Learning Italian or any language is not about grinding grammar rules. It is about living the language as a part of a culture itself. A culture that is new to you which means that it will expand your horizons and allow you to grow. Besides, you will enable yourself to communicate with others in one more language. How cool is that?`,
     it: `Perche è uno degli investimenti migliori che puoi fare su te
-    stesso. L'apprendimento d'italiano o qualsiasi altra lingua significa vivere la lingua come parte di una cultura, piuttosto che studiare le regole grammaticali constantemente. Cioè una cultura nuova per te, che espanderà i tuoi orrizonti e ti permetterà di crescere. Oltre quello, sbloccherai la tua communicazione con altri in ancora un'altra lingua. Ma che figata! Non credi?`,
+    stesso. L'apprendimento d'italiano o qualsiasi altra lingua significa vivere la lingua come parte di una cultura, piuttosto che studiare le regole grammaticali costantemente. Cioè una cultura nuova per te, che espanderà i tuoi orizzonti e ti permetterà di crescere. Oltre quello, sbloccherai la tua comunicazione con altri in ancora un'altra lingua. Ma che figata! Non credi?`,
   },
   par3: {
     en: `What we do? A ton of fun stuff! We go out to cafes, restaurants, parks, clubs, events and spend time together in a casual environment while speaking mostly Italian. Folks talk about their hobbies, travels, goals, stories, experiences and best practices to learn a language and so on. Sometimes one of us organizes a potluck or a party in their home and we get together and enjoy all the awesome food. We have people from different age groups and cultural backgrounds, so there is nothing stopping you from giving it a shot.`,
-    it: `Cosa facciamo? Un sacco di roba divertente! Andiamo ai caffe, ristoranti, park, club, eventi e passiamo il tempo assieme in un ambito informale parlando prevalentemente in italiano. La gente parla dei suoi passatempi, viaggi, obbietivi, storie, esperienze, e modi migliori per imparare una lingua, etc. A volte uno di noi organizza una festa a casa sua e ci troviamo per godere tutto il cibo fantastico. Abbiamo le persone con i diversi antefatti culturali, della età diversa, dunque non c'è nulla che possa impedirti di provarci.`,
+    it: `Cosa facciamo? Un sacco di roba divertente! Andiamo ai caffe, ristoranti, park, club, eventi e passiamo il tempo assieme in un ambito informale parlando prevalentemente in italiano. La gente parla dei propri passatempi, viaggi, obbietivi, storie, esperienze, e modi migliori per imparare una lingua, etc. A volte uno di noi organizza una festa a casa sua e ci troviamo per gustare cibo fantastico. Abbiamo  persone con diversi retroterra culturali, di età diversa, dunque non c'è nulla che possa impedirti di provarci.`,
   },
   par4: {
     en: `Do I have to be fluent in Italian to give it a shot and visit one of your events? You may have asked yourself that. No, you don't have to be fluent it Italian. Just come with desire to learn more and bring positive energy with you. You can find our next event by opening a link on the 'Who are we' page.`,
-    it: `Ma devo essere fluente in italiano per far' un tentativo e visitare uno dei nostri eventi? Forse l'avrai già chiesto. Eh no, non devi per forza essere fluente in italiano. Ma vieni con desiderio di imparare e porta l'energia positiva con te. Puoi trovare il nostro prossimo evento cliccando il link sulla pagina 'Chi siamo'.`,
+    it: `Ma devo essere fluente in italiano per far' un tentativo e visitare uno dei vostri eventi? Forse te lo sarai già chiesto. Eh no, non devi per forza essere fluente in italiano. Ma vieni con desiderio di imparare e porta l'energia positiva con te. Puoi trovare il nostro prossimo evento cliccando il link sulla pagina 'Chi siamo'.`,
   },
   meetupLink: {
     en: "Our next event",
@@ -92,7 +92,7 @@ const content = {
 
   thirdCardText: {
     en: "Yet another event where we met new people who joined us",
-    it: "Ancora un altro evento dove abbiamo conosciuto persone nuove e ci sono uniti",
+    it: "Ancora un altro evento dove abbiamo conosciuto persone nuove che si sono unite a noi",
   },
   forthCardTitle: {
     en: "Come for a conversation, stay because of friendship",
@@ -116,7 +116,7 @@ const content = {
   },
   unAuthor: {
     en: "Unknown author",
-    it: `L'autore sconosciuto`,
+    it: `Autore sconosciuto`,
   },
   sixthCardTitle: {
     en: "At Chicken Bingo",
@@ -124,7 +124,7 @@ const content = {
   },
   sixthCardText: {
     en: "Merely one of the events we attended. We don`t limit ourselves when it comes to having fun. A lot of us also like dancing",
-    it: "Semplicemente uno dei eventi dove siamo andati. Non ci limitiamo quando si tratta di divertimento. A la maggioranza di noi piace anche il ballo",
+    it: "Semplicemente uno degli eventi dove siamo andati. Non ci limitiamo quando si tratta di divertimento. A la maggioranza di noi piace anche il ballo",
   },
   overlay3Text: {
     en: "Here we are at Haymaker. Don't ask what Zio Paninaro means",
