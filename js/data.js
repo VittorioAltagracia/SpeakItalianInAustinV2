@@ -33,7 +33,7 @@ const content = {
   },
   header2: {
     en: "Why learn Italian?",
-    it: "Per ché imparare l'italiano?",
+    it: "Perché imparare l'italiano?",
   },
   par1: {
     en: `Who are we? Essentially we are people just like you - with our flaws, talents, goals and ambitions. Among us there are people who dance, sing or just enjoy karaoke. There are folks who like learning languages, programming, hiking, boxing, partying, making music, etc. This is a venue for conversations open to native speakers or those who want to practice their Italian.`,
