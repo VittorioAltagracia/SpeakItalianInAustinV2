@@ -1,0 +1,42 @@
+{
+  "name": "ParliamoItalianoAdAustinV2",
+  "version": "1.0.0",
+  "description": "This website is for Italian speaking community of Austin",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VittorioAltagracia/SpeakItalianInAustinV2"
+  },
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:all": "parallelshell \"npm run lite\"",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin imgs/* -o dist/imgs",
+    "usemin": "usemin do.html -d dist --htmlmin -o dist/do.html && usemin photos.html -d dist --htmlmin -o dist/photos.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+  },
+  "author": "Viktor P",
+  "license": "ISC",
+  "devDependencies": {
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "onchange": "^7.0.0",
+    "parallelshell": "3.0.1",
+    "rimraf": "^3.0.2",
+    "terser-webpack-plugin": "^5.3.7",
+    "usemin-cli": "^0.6.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
+    "uglify-js": "github:mishoo/UglifyJS2#harmony"
+  }
+}
